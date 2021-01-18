@@ -8,7 +8,6 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
-    "build": "node build/build.js",
     "build-bundle": "vue-cli-service build --target lib --name mtcOverlay ./src/components/index.js"
   },
   "dependencies": {
@@ -78,6 +77,12 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "*.json",
+    "*.js"
+  ],
   "browserslist": [
     "> 1%",
     "last 2 versions",
