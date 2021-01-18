@@ -136,7 +136,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .mtc_overlay__window {
   position: fixed;
   top: 0;
